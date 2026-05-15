@@ -1,115 +1,31 @@
 ---
 ---
+@inproceedings{chawla2024multi,
+  title={A Multi-Dimensional Online Contention Resolution Scheme for Revenue Maximization},
+  author={Chawla, Shuchi and Christou, Dimitris and Dang, Trung and Huang, Zhiyi and Kehne, Gregory and Rezvan, Rojin},
+  booktitle={Proceedings of the 2025 Annual ACM-SIAM Symposium on Discrete Algorithms},
+  pages={1720--1757},
+  year={2025},
+  organization={SIAM},
+  arxiv={2404.14679},
+  selected={true},
+  abstract={We study multi-buyer multi-item sequential item pricing mechanisms for revenue maximization with the goal of approximating a natural fractional relaxation -- the ex ante optimal revenue. We assume that buyers' values are subadditive but make no assumptions on the value distributions. While the optimal revenue, and therefore also the ex ante benchmark, is inapproximable by any simple mechanism in this context, previous work has shown that a weaker benchmark that optimizes over so-called "buy-many" mechanisms can be approximated. Approximations are known, in particular, for settings with either a single buyer or many unit-demand buyers. We extend these results to the much broader setting of many subadditive buyers. We show that the ex ante buy-many revenue can be approximated via sequential item pricings to within an $O(\log^2 m)$ factor, where $m$ is the number of items; a logarithmic dependence on $m$ is also necessary.
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+  Our approximation is achieved through the construction of a new multi-dimensional Online Contention Resolution Scheme (OCRS), that provides an online rounding of the optimal ex ante solution. Chawla et. al [2023] previously constructed an OCRS for revenue for unit-demand buyers, but their construction relied heavily on the "almost single dimensional" nature of unit-demand values. Prior to that work, OCRSes have only been studied in the context of social welfare maximization for single-parameter buyers. For the welfare objective, constant-factor approximations have been demonstrated for a wide range of combinatorial constraints on item allocations and classes of buyer valuation functions. Our work opens up the possibility of a similar success story for revenue maximization.},
+  abbr={SODA}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
-}
+@inproceedings{chawla2025commitment,
+  title={Commitment Gap via Correlation Gap},
+  author={Chawla, Shuchi and Christou, Dimitris and Dang, Trung},
+  arxiv={2508.20246},
+  booktitle={International Conference on Web and Internet Economics},
+  year={2025},
+  abstract={Selection problems with costly information, dating back to Weitzman's Pandora's Box problem, have received much attention recently. We study the general model of Costly Information Combinatorial Selection (CICS) that was recently introduced by Chawla et al. [2024] and Bowers et al. [2025]. In this problem, a decision maker needs to select a feasible subset of stochastic variables, and can only learn information about their values through a series of costly steps, modeled by a Markov decision process. The algorithmic objective is to maximize the total value of the selection *minus* the cost of information acquisition. However, determining the optimal algorithm is known to be a computationally challenging problem.
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
+  To address this challenge, previous approaches have turned to approximation algorithms by considering a restricted class of *committing policies* that simplify the decision-making aspects of the problem and allow for efficient optimization. This motivates the question of bounding the *commitment gap*, measuring the worst case ratio in the performance of the optimal committing policy and the overall optimal. 
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  In this work, we obtain improved bounds on the commitment gap of CICS through a reduction to a simpler problem of Bayesian Combinatorial Selection where information is free. By establishing a close relationship between these problems, we are able to relate the commitment gap of CICS to ex ante free-order prophet inequalities. As a consequence, we obtain improved approximation results for CICS, including the well-studied variant of Pandora's Box with Optional Inspection under matroid feasibility constraints.},
+  abbr={WINE},
+  selected={true}
 }

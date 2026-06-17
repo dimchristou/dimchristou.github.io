@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-17'
 papers:
   t46iMM8AAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -10,11 +10,11 @@ papers:
     title: Efficient online clustering with moving costs
     year: '2023'
   t46iMM8AAAAJ:IjCSPb-OGe4C:
-    citations: 1
+    citations: 2
     title: Commitment gap via correlation gap
     year: '2025'
   t46iMM8AAAAJ:UeHWp8X0CEIC:
-    citations: 4
+    citations: 5
     title: Combinatorial selection with costly information
     year: '2026'
   t46iMM8AAAAJ:d1gkVwhDpl0C:

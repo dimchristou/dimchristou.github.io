@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-07-13'
 papers:
   t46iMM8AAAAJ:2osOgNQ5qMEC:
     citations: 11
@@ -22,7 +22,7 @@ papers:
     title: A simple rounding scheme for multistage optimization
     year: '2022'
   t46iMM8AAAAJ:qjMakFHDy7sC:
-    citations: 2
+    citations: 3
     title: A multi-dimensional online contention resolution scheme for revenue maximization
     year: '2025'
   t46iMM8AAAAJ:u-x6o8ySG0sC:

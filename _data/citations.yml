@@ -1,20 +1,20 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-08-10'
 papers:
   t46iMM8AAAAJ:2osOgNQ5qMEC:
     citations: 11
     title: Online time-windows TSP with predictions
     year: '2023'
   t46iMM8AAAAJ:9yKSN-GCB0IC:
-    citations: 5
+    citations: 4
     title: Efficient online clustering with moving costs
     year: '2023'
   t46iMM8AAAAJ:IjCSPb-OGe4C:
-    citations: 2
+    citations: 3
     title: Commitment gap via correlation gap
     year: '2025'
   t46iMM8AAAAJ:UeHWp8X0CEIC:
-    citations: 5
+    citations: 7
     title: Combinatorial selection with costly information
     year: '2026'
   t46iMM8AAAAJ:d1gkVwhDpl0C:
@@ -22,7 +22,7 @@ papers:
     title: A simple rounding scheme for multistage optimization
     year: '2022'
   t46iMM8AAAAJ:qjMakFHDy7sC:
-    citations: 3
+    citations: 4
     title: A multi-dimensional online contention resolution scheme for revenue maximization
     year: '2025'
   t46iMM8AAAAJ:u-x6o8ySG0sC:
@@ -33,3 +33,7 @@ papers:
     citations: 7
     title: Online learning for min-max discrete problems
     year: '2022'
+  t46iMM8AAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: 'Pricing Pandora''s Boxes: Revenue Maximization in Sequential Information Acquisition'
+    year: '2026'
